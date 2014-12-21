@@ -8,8 +8,13 @@ It consists of a wordpress plugin and a lightroom plugin.
 
 Lightroom
 ---------
-
-
+* In Lightroom goto File > Plugin Manager
+* Click add, browse to the directory where Wordpress.lrdevplugin is, hit add
+* Goto you library, scroll to the bottom left where publish services are and right click edit, wordpress should be listed
+* You need to enter your username, password, and url to the blog, setup what size you'd like your images to be and compression settings
 
 Wordpress
 ---------
+* Upload wp-lightroom to wp-content/plugins/
+* Goto Plugins in the admin dashboard, activate the wp-lightroom plugin
+* No configuration needed
