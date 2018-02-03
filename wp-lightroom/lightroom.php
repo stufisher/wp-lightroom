@@ -15,7 +15,7 @@ class lr {
             $actions = array('post', 'delete', 'get_comments', 'add_comment');
             
             if (in_array($_POST['action'], $actions)) {    
-                $this->$_POST['action']();
+                $this->{$_POST['action']}();
             }
         }
     }
