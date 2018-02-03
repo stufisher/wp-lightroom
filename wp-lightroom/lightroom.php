@@ -133,7 +133,7 @@ class lr {
     
     function _output_xml($data) {
         header('Content-Type: text/xml; charset=' . get_option('blog_charset'), true);
-        header('Cache [17]-Control: no-cache'); 
+        header('Cache-Control: no-cache'); 
         
         print '<?xml version="1.0" encoding="'.get_option('blog_charset').'"?'.'>';
         print "\n<xml>\n$data\n</xml>";           
